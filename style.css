@@ -1,0 +1,196 @@
+body{
+    background-color: #F3F5FC;
+}
+
+#Titulo{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+   
+    height: 50px;
+    width: 50;
+   
+}
+
+#TextoArea::placeholder{
+    color:#0A3871;
+}
+
+
+#TextoArea{
+   
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    border: none;
+    background-color: #F3F5FC;
+    color:#0A3871;  
+    font-size: 35px;
+    margin-left: 200px;
+    outline: none;
+    font-family: inter;
+    resize: none;
+
+   
+}
+
+#Mensagem{
+    background-color: #FFFFFF;
+   
+    position: absolute;          
+    height: 730px;
+    width: 350px;
+    border-radius: 32px;    
+    margin-left: 1400px;
+    resize: none;
+}
+#msgCriptografada{
+    display: none;
+    
+    background-color: #FFFFFF;        
+    
+    position: absolute;          
+    height: 750px;
+    width: 350px;
+    border-radius: 32px;    
+    margin-left: 1400px;
+    resize: none;
+     
+}
+#palavraCriptografada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    font-size: 35px; 
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 280px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: none;
+    color:#0A3871;
+    resize: none;
+    
+    
+
+}
+
+
+#imgBoneco{
+    padding-top: 150px;
+    padding-left: 20px;    
+}
+#imgX1{
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: #FFFFFF;
+}
+#imgX2{
+    padding-top: 20px;
+    padding-left: 50px;
+   
+}
+#copiar{
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 328px;
+    
+    margin-left: 10px;
+    background-color:#FFFFFF;
+    border-radius: 24px;
+    font-size: 19px;
+    color:#0A3871;
+    border-color: #0A3871;
+}
+#copiar:active{
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 328px;
+    
+    margin-left: 10px;
+    background-color:#F3F5FC;
+    border-radius: 24px;
+    font-size: 19px;
+    color:#0A3871;
+    border-color: #0A3871;
+}
+
+#botoes{
+    display: flex;
+    height: 200;
+    width:  600;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+#Criptografar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 328px;
+    margin-right: 50px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-size: 19px;
+    color: #FFFFFF;
+    border-color: #0A3871;
+    }
+
+#Criptografar:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 330px;
+    margin-right: 50px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-color: #0A3871;
+    }
+
+#Descriptografar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    width: 328px;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    font-size: 19px;
+    color: #0A3871;
+    border-color: #0A3871;
+   
+}
+#Descriptografar:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 330px;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #0A3871;
+    border-color: #0A3871;
+}
+#info{
+    margin-top: 40px;
+   
+    margin-left: 195px;
+    font-size: 19px;
+}
+#rodape{
+    background-color: #FFFFFF;
+   
+}
